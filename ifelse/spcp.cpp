@@ -13,7 +13,7 @@ int main (){
 if(sp>cp){
   cout<<"profit = "<<sp-cp;
 }
-
+// threeDigitNumber.cpp/
 if(cp>sp){
 cout<<"loss = "<<cp-sp;
 }

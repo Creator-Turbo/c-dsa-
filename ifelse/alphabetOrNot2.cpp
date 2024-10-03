@@ -1,18 +1,16 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main ()
-{
-  char ch;
-  cout<<"Enter a character :";
-  cin>>ch;
-  // a to z --> 97 to 122
-  // A to z ---> 65 to 90
-   int ascii = (int)ch;
-    if((ascii>=97 && ascii<=122) || (ascii>=64 && ascii<=90)){
-      cout<<"The character is  alphabet";
+
+int main() {
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+
+    if ((num % 5 == 0 || num % 3 == 0) && num % 15 != 0) {
+        cout << "True" << endl;
+    } else {
+        cout << "False" << endl;
     }
-    else{
-     cout<<"The character is not aplhabet";
-    }
-   
-    }
+
+    return 0;
+}

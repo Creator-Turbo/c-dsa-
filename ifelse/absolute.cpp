@@ -2,7 +2,7 @@
 using namespace std;
 int main (){
 
-cout<<"Enter a number:"<<endl;
+cout<<"Enter a integer:"<<endl;
 int n;
 cin>>n;
 if(n<0){
