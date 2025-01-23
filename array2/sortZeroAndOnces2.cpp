@@ -8,6 +8,7 @@ void sort01m2(vector<int>& v){
     while(i<j){
         if(v[i]==0) i++;
         if(v[j]==1) j--;
+        if(i>j) break;
         if(v[i]==1 && v[j]==0){
             v[i] = 0;
             v[j] = 1;
@@ -22,11 +23,11 @@ int main (){
     v.push_back(1);
     v.push_back(1);
     v.push_back(0);
-    v.push_back(0);
-    v.push_back(1);
     v.push_back(1);
     v.push_back(0);
     v.push_back(1);
+    v.push_back(1);
+    v.push_back(0);
     
 
  for(int i=0;i<v.size();i++){
