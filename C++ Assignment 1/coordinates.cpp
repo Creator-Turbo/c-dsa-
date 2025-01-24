@@ -21,3 +21,5 @@ int main (){
   cout<<"The poins lie on the plane";
   }
 }
+
+
